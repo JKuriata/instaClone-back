@@ -22,7 +22,7 @@ const login = async (req, res) => {
   }
 };
 
-
 module.exports = {
   signupUser: signupUser,
+  login: login,
 };
